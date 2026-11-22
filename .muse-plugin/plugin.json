@@ -13,6 +13,14 @@
       {
         "id": "tactics-practice",
         "path": "skills/tactics-practice/SKILL.md"
+      },
+      {
+        "id": "daily-puzzle",
+        "path": "skills/daily-puzzle/SKILL.md"
+      },
+      {
+        "id": "review-a-puzzle",
+        "path": "skills/review-a-puzzle/SKILL.md"
       }
     ],
     "mcpServers": [
