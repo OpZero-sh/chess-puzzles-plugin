@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chess-puzzles",
+  "version": "1.0.0",
+  "description": "Practice chess tactics one move at a time with rated Lichess puzzles, graduated hints and a daily challenge.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/chess-puzzles-plugin",
+  "repository": "https://github.com/OpZero-sh/chess-puzzles-plugin",
+  "license": "LicenseRef-OpZero-Plugin",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Chess Puzzles",
+        "shortDescription": "Train your tactical vision",
+        "longDescription": "Practice chess tactics one move at a time with rated Lichess puzzles, graduated hints and a daily challenge.",
+        "developerName": "OpZero",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/OpZero-sh/chess-puzzles-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

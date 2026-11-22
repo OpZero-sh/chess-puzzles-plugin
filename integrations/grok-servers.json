@@ -1,0 +1,10 @@
+{
+  "chess-puzzles": {
+    "url": "https://chess-puzzles.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "chess_puzzle",
+      "daily_chess_puzzle",
+      "get_chess_puzzle"
+    ]
+  }
+}

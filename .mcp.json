@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chess-puzzles": {
+      "type": "http",
+      "url": "https://chess-puzzles.mcp.opzero.sh/mcp"
+    }
+  }
+}

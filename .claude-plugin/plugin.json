@@ -1,0 +1,23 @@
+{
+  "name": "chess-puzzles",
+  "version": "1.0.0",
+  "description": "Practice chess tactics one move at a time with rated Lichess puzzles, graduated hints and a daily challenge.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "repository": "https://github.com/OpZero-sh/chess-puzzles-plugin",
+  "keywords": [
+    "chess",
+    "tactics",
+    "puzzles"
+  ],
+  "displayName": "Chess Puzzles",
+  "homepage": "https://github.com/OpZero-sh/chess-puzzles-plugin",
+  "documentationUrl": "https://github.com/OpZero-sh/chess-puzzles-plugin#readme",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "supportUrl": "https://opzero.sh/support",
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "icon": "./assets/icon.png",
+  "license": "LicenseRef-OpZero-Plugin"
+}
