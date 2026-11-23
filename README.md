@@ -51,9 +51,9 @@ The public [Chess Puzzles service](https://chess-puzzles.mcp.opzero.sh/) hosts p
 
 - **One remote MCP server:** `https://chess-puzzles.mcp.opzero.sh/mcp`. A request carries only the tool arguments: a theme, rating bounds or a puzzle ID. No sign in is used. The service states that requests are not stored.
 - **No hooks, no local server and no install step.** Nothing in the plugin runs a program on your machine.
-- **Two optional scripts** for people working from a checkout. Claude does not run them and the plugin does not need them.
-  - `scripts/build_openai.py` builds the ZIP package for ChatGPT and Codex from the files in this repository. It reads local files, writes ZIP files to the folder you name and makes no network request.
-  - `integrations/grok_example.py` prepares a request to the xAI API that points Grok at the same MCP server, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`. That happens only when you run the script yourself.
+- **No scripts in this repository.** Two optional scripts for people working from a checkout live in the catalog repository, https://github.com/OpZero-sh/plugins. Claude does not run them and the plugin does not need them. They do something only if you clone the catalog and run them yourself.
+  - `tools/build_openai.py` in the catalog builds the ZIP package for ChatGPT and Codex from the files in this repository. It reads local files, writes ZIP files to the folder you name and makes no network request.
+  - `tools/grok_example.py` in the catalog prepares a request to the xAI API that points Grok at the same MCP server, using the list in `integrations/grok-servers.json`. With `--dry-run` it prints the request and contacts nothing. Without it, the script reads `XAI_API_KEY` and the optional `XAI_MODEL` from your environment and sends your question to `https://api.x.ai/v1/responses`.
 
 ## In use
 
